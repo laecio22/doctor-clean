@@ -1,15 +1,18 @@
 <template>
     <div class="container">
        <HeaderApp></HeaderApp>
+       <SectionHome></SectionHome>
     </div>
 </template>
 
 <script >
   import HeaderApp from './HeaderApp.vue';
+  import SectionHome from './SectionHome.vue';
   export default {
     name: "containerMain",
     components: {
-      HeaderApp
+      HeaderApp,
+      SectionHome
     }
 
   }
