@@ -2,17 +2,21 @@
     <div class="container">
        <HeaderApp></HeaderApp>
        <SectionHome></SectionHome>
+       <SectionDiferencial></SectionDiferencial>
     </div>
 </template>
 
 <script >
   import HeaderApp from './HeaderApp.vue';
+  import SectionDiferencial from './SectionDiferencial.vue';
   import SectionHome from './SectionHome.vue';
+  
   export default {
     name: "containerMain",
     components: {
       HeaderApp,
-      SectionHome
+      SectionHome,
+      SectionDiferencial,
     }
 
   }
